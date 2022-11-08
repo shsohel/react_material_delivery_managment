@@ -1,0 +1,27 @@
+table,
+tr,
+td {
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  padding: 5px;
+}
+
+tr {
+  text-align: left;
+}
+
+#tblEntryPermitInfo tbody tr td:nth-child(1) {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+#tblEntryPermitInfo tbody tr td:nth-child(3) {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  color: #484650;
+}
